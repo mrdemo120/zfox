@@ -1,4 +1,8 @@
 @media (max-width: 400px){
+	body {
+		overflow-x: hidden;
+
+	}
 	.logobg {
   		width: 100%;
 	}
@@ -14,7 +18,8 @@
 		padding: 0;
 		padding-right: 8px;
 		/*padding-bottom: 20px;*/
-		margin: 10px;
+		margin: 5px;
+		flex-wrap: wrap;
 	}
 	.nav ul {
 		display: grid;
@@ -47,15 +52,19 @@
 	.tarek {
 		/*left: 0;*/
 		/*display: inline-block;*/
-		width: 391px;
+		width: 100%;
+		margin: 0;
+		padding: 0;
 	}
 	.tarek img {
-		/*width: 100%;*/
-		width: 391px;
+		width: 100%;
+		/*width: 391px;*/
 		left: 0px;
+		display: block;
 	}
 	.tarek h1 {
 		display: inline-block;
+		text-align: center;
 	}
 	.tarek h1 a{
 		left: 40px;
@@ -65,15 +74,21 @@
 		display: block;
 	}
 	.tarek h5 a {
-		left: 15px;
+		width: 370px;
+		left: 10px;
 		position: relative;
 		font-size: 17px;
 		margin-bottom: 30px;
 		padding-bottom: 20px;
 		border-bottom: 2px solid #ddd;
+		padding: 0;
+		display: block;
+		overflow-x: hidden;
 	}
 	.tarek h5   {
 		display: inline-block;
+		padding: 0;
+		text-align: center;
 	}
 	aside {
 
@@ -83,6 +98,10 @@
 		align-items: center;
 		/*left: 100px;*/
 
+	}
+	.side {
+		margin-bottom: 30px;
+		border-bottom: 2px solid #ddd;
 	}
 	.side img {
 		/*display: block;*/
